@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to Mirqah API"}
+    return {"message": "Welcome to Mirqah API222"}
