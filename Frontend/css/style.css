@@ -7,3 +7,47 @@ body {
   font-family: "Kufam", sans-serif;
 }
 /* end global rules */
+
+* {
+ /* المساحات*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body { 
+  background-color: #d3d1d186;
+}
+
+header { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0rem 0.5rem;
+  max-width: 1200px;
+}
+
+.nav-bar ul {
+ display : flex;
+ list-style-type: none;
+ gap : 2rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #000;
+  
+}
+
+.nav-bar a:hover {
+  text-decoration: none;
+  color: #5e5f5e;
+  
+}
+
+hr {
+  opacity: 35%;
+  border: 1px solid #5e5f5e;
+}
